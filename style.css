@@ -311,8 +311,11 @@ span{
     color: rgb(102, 101, 101);
 }
 
+/*---------------Responsiviso---------------*/
 
-
+@media (max-width: 750px) {
+    
+}
 
 
 
