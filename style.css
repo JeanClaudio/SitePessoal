@@ -132,9 +132,11 @@ header{
 
 .about h1{
     width: 350px;
-    margin: 0 auto 3em auto;
+    height: 50px;
+    margin: 0 auto;
     font-size: 2.5em;
     text-align: center;
+    align-items: center;
     border-bottom: 1px solid rgb(51, 51, 51);
     color: rgb(51, 51, 51);
 }
@@ -215,10 +217,11 @@ span{
 
 #portfolio h2{
     width: 350px;
-    margin: 0 auto 1em auto;
-    padding-top: 1em;
+    height: 50px;
+    margin: 0 auto;
     font-size: 2.5em;
     text-align: center;
+    align-items: center;
     border-bottom: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
@@ -230,7 +233,7 @@ span{
 }
 
 .wrapper-cards{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -255,19 +258,28 @@ span{
 
 .cards_backgroud:hover{
     background-color: rgba(255, 255, 255, 0);
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 #wrapper_card_1{
     background-image: url(img/chris-ried-ieic5Tq8YMk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #wrapper_card_2{
     background-image: url(img/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #wrapper_card_3{
     background-image: url(img/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer{
@@ -313,16 +325,55 @@ span{
 
 /*---------------Responsiviso---------------*/
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
 
     .menu-container{
         justify-content: center;
     }
 
-    .about h1{
-        margin: 1em auto 3em auto;
-}
+    .wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
 
+    .wrapper p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about h1{
+        margin: 1em auto 1em auto;
+    }
+
+    #portfolio h2{
+        margin: 1em auto 1em auto;
+    }
+
+    .about-me{
+        width: 90%;
+    }
+
+    .skills{
+        width: 90%;
+        text-align: left;
+        padding: 2em 3rem;
+    }
+
+    .wrapper-cards{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+        width: 100%;
+        height: 200px;
+    }
+    
+}
 
 
 
