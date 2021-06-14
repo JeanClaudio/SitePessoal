@@ -314,7 +314,10 @@ span{
 /*---------------Responsiviso---------------*/
 
 @media (max-width: 750px) {
-    
+
+    .menu-container{
+        justify-content: center;
+    }
 }
 
 
