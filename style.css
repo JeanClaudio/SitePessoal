@@ -239,7 +239,8 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 8em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 
