@@ -93,6 +93,8 @@ header{
     cursor: pointer;
 }
 .btn:hover{
+    color: white;
+    border: solid 2px rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.26);
 }
 
@@ -178,7 +180,7 @@ span{
     border-bottom: 5px solid rgb(0, 68, 255);
 }
 .jquery{
-    width: 30%;
+    width: 35%;
     border-bottom: 5px solid rgb(0, 68, 255);
 }
 .css{
@@ -186,7 +188,7 @@ span{
     border-bottom: 5px solid rgb(0, 68, 255);
 }
 .bootstrap{
-    width: 40%;
+    width: 70%;
     border-bottom: 5px solid rgb(0, 68, 255);
 }
 .html{
