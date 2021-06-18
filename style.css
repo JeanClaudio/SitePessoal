@@ -239,6 +239,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 0 8em;
 }
 
 
@@ -251,7 +252,6 @@ span{
     align-items: center;
     background-size: cover;
     transition: 0.5s;
-    margin: 2em;
 }
 
 
